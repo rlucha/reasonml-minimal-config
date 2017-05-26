@@ -25,4 +25,5 @@ $ npm run prod
 ## Check the bundle details
 With every compilation a stats.json file is produced in the root, visit https://webpack.github.io/analyse/ and drop that file to get a good insight of your bundle.
 
+## Play with it
 Edit src/main.re and check the changes on __localhost:3001__
