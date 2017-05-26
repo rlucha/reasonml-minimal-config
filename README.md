@@ -7,7 +7,7 @@ This repo contains the minimum amount of configuration to run:
 
 ## Fork the repo and run these commands
 ```
-$ git clone thisrepo
+$ git clone https://github.com/rlucha/reasonml-minimal-config .
 $ npm i
 ```
 
