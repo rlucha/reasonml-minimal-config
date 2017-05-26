@@ -1,0 +1,25 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dashboard": "node ./node_modules/webpack-dashboard/bin/webpack-dashboard.js -- npm run watch",
+    "watch": "node ./node_modules/webpack/bin/webpack.js --config ./config/webpack.config.js -w",
+    "bundle": "node ./node_modules/webpack/bin/webpack.js --config ./config/webpack.config.js",
+    "prod": "NODE_ENV=production npm run bundle",
+    "serve": "node ./node_modules/browser-sync/bin/browser-sync.js start --config ./config/bsync-config.js",
+    "dev": "node ./node_modules/concurrently/src/main.js --raw \"npm run serve\" \" sleep 1 && npm run dashboard\""
+  },
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babili-webpack-plugin": "^0.1.1",
+    "browser-sync": "^2.18.12",
+    "bs-loader": "^1.2.5",
+    "bs-platform": "^1.7.1",
+    "concurrently": "^3.4.0",
+    "webpack": "^2.6.1",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-dashboard": "^0.4.0"
+  }
+}

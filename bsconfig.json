@@ -1,0 +1,5 @@
+{
+  "name": "test",
+  "sources" : { "dir" : "src"},
+  "bs-dependencies": []
+}
