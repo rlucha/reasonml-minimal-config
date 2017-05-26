@@ -21,4 +21,4 @@ $ npm run dev
 $ npm run prod
 ```
 
-Edit src/main.re and check the changes on the results on __localhost:3001__
+Edit src/main.re and check the changes on __localhost:3001__
