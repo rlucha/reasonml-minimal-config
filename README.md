@@ -5,7 +5,7 @@ This repo contains the minimum amount of configuration to run:
 * webpack-dashboard & bundle reports
 * browser-sync server with automatic reloading on source changes
 
-## Fork the repo and run these commands
+## Fork / clone repo and install dependencies
 ```
 $ git clone https://github.com/rlucha/reasonml-minimal-config .
 $ npm i
@@ -21,6 +21,8 @@ Minifies & drops dead code
 ```
 $ npm run prod
 ```
+
+It expects a src/main.re file as an entry point to create the bundle.
 
 ## Check the bundle details
 With every compilation a stats.json file is produced in the root, visit https://webpack.github.io/analyse/ and drop that file to get a good insight of your bundle.
