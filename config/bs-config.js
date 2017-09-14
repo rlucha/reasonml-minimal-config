@@ -1,33 +1,12 @@
-
-/*
- |--------------------------------------------------------------------------
- | Browser-sync config file
- |--------------------------------------------------------------------------
- |
- | For up-to-date information about the options:
- |   http://www.browsersync.io/docs/options/
- |
- | There are more options than you see here, these are just the ones that are
- | set internally. See the website for more info.
- |
- |
- */
 module.exports = {
-    "ui": false,
-    "files": "build/bundle.js",
-    "watchEvents": [
-        "change"
-    ],
-    "watchOptions": {
-        "ignoreInitial": true
-    },
-    "server": {
-      baseDir: "build"
+    "files": ["./build/**/*"],
+    server: {
+        baseDir: "build"
     },
     "proxy": false,
     "port": 3000,
     "middleware": false,
-    "serveStatic": ["build"],
+    "serveStatic": [],
     "ghostMode": {
         "clicks": true,
         "scroll": true,
@@ -38,13 +17,14 @@ module.exports = {
             "toggles": true
         }
     },
-    "logLevel": "silent",
-    "logPrefix": "BS",
+    "logLevel": "info",
+    "logPrefix": "Browsersync",
     "logConnections": false,
     "logFileChanges": true,
     "logSnippet": true,
     "rewriteRules": [],
-    "open": false,
+    "open": "local",
+    "browser": "default",
     "cors": false,
     "xip": false,
     "hostnameSuffix": false,
