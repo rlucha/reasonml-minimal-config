@@ -1,4 +1,4 @@
-UPDATE: I recommend using [reason-scripts](https://github.com/reasonml-community/reason-scripts) instead of this
+UPDATE: I recommend using [reason-scripts](https://github.com/reasonml-community/reason-scripts) or [reasonML Quickstart Steps](https://reasonml.github.io/guide/javascript/quickstart/) instead of this
 
 # Minimal reasonml config
 
