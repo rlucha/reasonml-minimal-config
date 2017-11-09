@@ -1,3 +1,5 @@
+UPDATE: I recommend using (https://github.com/reasonml-community/reason-scripts)[reason-scripts] instead of this
+
 # Minimal reasonml config
 
 This repo contains the minimum amount of configuration to run:
